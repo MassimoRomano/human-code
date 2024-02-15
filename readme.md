@@ -1,6 +1,18 @@
 # Istruction 
 
-Controllare se il numero di posti e' giusto
+Contare i posti a tavola di 2 in 2
+Ci s(t)iamo tutti?
+Per il pranzo di Natale, diamo una mano a nonna per preparare la tavola: zio Rino, la piccola Emy, zia Lucia e nonno Carlo… siamo davvero in tanti!
+Non sarà un pranzo formale, perciò non servono i segnaposto con i nomi, però dobbiamo verificare che ci sia un posto per ciascuno. Per essere più rapidi contiamo i posti a tavola di 2 in 2 e ci accorgiamo che avevamo dimenticato un posto!
 
 ## Steps
+
+ Step 1: Andare nella sala da pranzo 
+
+-if: La porta e' chiusa
+       -Apri la porta
+       -Attraversi la porta
+
+-else:
+     -Attraversi la porta   
 

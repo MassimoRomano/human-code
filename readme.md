@@ -35,10 +35,22 @@ Step 3: Contare i posti di 2 in 2
 
 
 Step 4:Prendere la sedia
+
 - if: la sedia e nella stessa sala
     - prendo la sedia
-    - la posiziono vicino al tavolo
+     - la posiziono vicino al tavolo
 
 - else:Vado in cucina
     - passo allo step successivo  
+
+
+Step 5:Vado in cucina
+
+- if: la sedia e in cucina
+    - prendo la sedia
+      - passo allo step successivo
+
+- else: Chiedo dove trovare la sedia
+    - passo ad un altro step
+     
 

@@ -7,7 +7,13 @@ Non sarà un pranzo formale, perciò non servono i segnaposto con i nomi, però 
 
 ## Steps
 
- Step 1: Andare nella sala da pranzo 
+Step 1:Chiedere alla nonna se ha bisogno di aiuto
+
+   -if:ha bisogno di aiuto(step successivo)
+
+   -else: fine esercizio
+
+Step 2: Andare nella sala da pranzo 
 
 -if: La porta e' chiusa
        -Apri la porta
@@ -15,4 +21,8 @@ Non sarà un pranzo formale, perciò non servono i segnaposto con i nomi, però 
 
 -else:
      -Attraversi la porta   
+
+
+Step 3: Contare i posti
+ 
 

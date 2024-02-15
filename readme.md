@@ -31,26 +31,57 @@ Step 3: Contare i posti di 2 in 2
 
 - else: Mancano posti a sedere
     - conti il numero di posti mancati
-      - step successivo
+      - passo allo step 4
 
 
 Step 4:Prendere la sedia
 
 - if: la sedia e nella stessa sala
     - prendo la sedia
-     - la posiziono vicino al tavolo
+     - passo allo step 5
 
-- else:Vado in cucina
-    - passo allo step successivo  
+- else:la sedia non e' nella stessa sala
+    - passo allo step 6 
+
+Step 5:Vado nella sala da pranzo
+
+- if: la porta e chiusa
+    - apro la porta
+      - entro in sala
+        - posiziono la sedia
+
+- else: porta aperta
+    - entro in sala 
+      - posiziono la sedia
+        - comunico alla nonna (step 8) 
 
 
-Step 5:Vado in cucina
+Step 6:Vado in cucina
 
 - if: la sedia e in cucina
     - prendo la sedia
-      - passo allo step successivo
+      - passo allo step 7
 
 - else: Chiedo dove trovare la sedia
     - passo ad un altro step
      
 
+Step 7: Vado in un altra sala
+
+- if: trovo la sedia
+    - prendo la sedia
+      - passo allo step 5
+
+- else: non trovo la sedia
+   - passo ad un altra sala
+    - riavvio lo step 7
+
+
+Step 8: comunico alla nonna
+
+- if: la nonna e soddisfatta
+   - Fine esercizio
+
+- else: la nonna ha bisogno ancora di aiuto
+   - chiedo di cosa ha bisogno
+     - passo allo step successivo 

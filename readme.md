@@ -13,6 +13,7 @@ Step 1:Chiedere alla nonna se ha bisogno di aiuto
 
 - else: fine esercizio
 
+
 Step 2: Andare nella sala da pranzo 
 
 - if: La porta e' chiusa
@@ -43,6 +44,7 @@ Step 4:Prendere la sedia
 - else:la sedia non e' nella stessa sala
     - passo allo step 6 
 
+
 Step 5:Vado nella sala da pranzo
 
 - if: la porta e chiusa
@@ -60,10 +62,11 @@ Step 6:Vado in cucina
 
 - if: la sedia e in cucina
     - prendo la sedia
-      - passo allo step 7
+      - passo allo step 5
 
 - else: Chiedo dove trovare la sedia
-    - passo ad un altro step
+    - chiedo alla nonna dove trovare la sedia
+     - passo allo step 7
      
 
 Step 7: Vado in un altra sala
